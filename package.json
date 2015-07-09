@@ -1,0 +1,24 @@
+{
+  "name": "geocodejson-stream",
+  "version": "0.0.1",
+  "description": "Implementation of the GEOCODEJSON [spec](https://github.com/dianashk/geocodejson-spec) ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha tests"
+  },
+  "author": "Diana Shkolnikov <dianashk@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dianashk/geocodejson-stream"
+  },
+  "dependencies": {
+    "jsonstream": "^1.0.3"
+  },
+  "devDependencies": {
+    "memorystream": "^0.3.1",
+    "mocha": "^2.2.5",
+    "should": "^7.0.1",
+    "through2": "^2.0.0"
+  }
+}
