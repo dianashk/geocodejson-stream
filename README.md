@@ -3,6 +3,10 @@
 Stream-based utility for consuming and generating GEOJSON files specifically for 
 geocoding needs. see proposed [geocodejson spec](https://github.com/yohanboniface/geocodejson-spec)
 
+
+[![NPM](https://nodei.co/npm/geocodejson-stream.png?downloads=true&stars=true)](https://nodei.co/npm/geocodejson-stream)
+
+
 ### install
 
 `npm install geocodejson-stream`
@@ -44,7 +48,7 @@ will result in...
 }
 ```
 
-#### `parse`
+##### `parse`
 
 > text --> geocodejson-stream.parse --> geojson feature objects
 
@@ -68,7 +72,7 @@ will result in...
 { "type": "Feature", "properties": { "name": "Canada" }, "geometry": {...} }
 ```
 
-#### `parseGeocoding`
+##### `parseGeocoding`
 
 > text --> geocodejson-stream.parseGeocoding --> geocoding object
 
@@ -93,6 +97,13 @@ will result in...
   "license": "ODbL"
 }
 ```
+
+### test [![Build Status](https://travis-ci.org/dianashk/geocodejson-stream.png?branch=master)](https://travis-ci.org/dianashk/geocodejson-stream)
+
+```bash
+$ npm test
+```
+
 
 ### contribute
 
